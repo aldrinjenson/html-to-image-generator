@@ -1,0 +1,21 @@
+{
+  "name": "image-generator",
+  "version": "1.0.0",
+  "description": "api to generate image from html",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "html",
+    "image"
+  ],
+  "author": "aldrinjenson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-html-to-image": "^3.1.0"
+  }
+}
